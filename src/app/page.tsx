@@ -8,6 +8,7 @@ import { Footer } from "@/components/sections/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Marquee } from "@/components/sections/Marquee";
 import { Services } from "@/components/sections/Services";
+import { Shop } from "@/components/sections/Shop";
 import { WhyUs } from "@/components/sections/WhyUs";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Approach />
         <WhyUs />
         <Clients />
+        <Shop />
         <Contact />
       </main>
       <Footer />
