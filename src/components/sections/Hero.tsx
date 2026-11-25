@@ -50,7 +50,7 @@ export function Hero() {
             style={{ "--reveal-delay": "160ms" } as React.CSSProperties}
             className="mt-7 max-w-xl text-lg leading-relaxed text-navy-700/85"
           >
-            From stationery and PPE to furniture, branding and catering, we source it, supply it and deliver it on
+            From stationery and PPE to furniture, branding and catering supplies, we source it, supply it and deliver it on
             time. One dependable partner for your operations, and procurement spend that counts toward your B-BBEE
             goals.
           </p>
