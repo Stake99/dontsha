@@ -4,6 +4,7 @@ import { About } from "@/components/sections/About";
 import { Approach } from "@/components/sections/Approach";
 import { Clients } from "@/components/sections/Clients";
 import { Contact } from "@/components/sections/Contact";
+import { Customisation } from "@/components/sections/Customisation";
 import { Footer } from "@/components/sections/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Marquee } from "@/components/sections/Marquee";
@@ -20,6 +21,7 @@ export default function Home() {
         <Marquee />
         <About />
         <Services />
+        <Customisation />
         <Approach />
         <WhyUs />
         <Clients />
