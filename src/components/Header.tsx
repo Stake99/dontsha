@@ -51,7 +51,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <a
             href={company.phoneHref}
-            className="hidden items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold text-navy-800 transition-colors hover:text-ember-600 md:flex"
+            className="hidden items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold text-navy-800 transition-colors hover:text-ember-600 md:flex lg:hidden xl:flex"
           >
             <Phone className="size-4" />
             {company.phone}

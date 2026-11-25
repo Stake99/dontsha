@@ -56,6 +56,7 @@ export function QuoteForm() {
           {services.map((s) => (
             <option key={s.title}>{s.title}</option>
           ))}
+          <option>Custom branding (shirts, bags and gifts)</option>
           <option>Something else</option>
         </select>
       </label>

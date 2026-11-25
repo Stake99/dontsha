@@ -1,6 +1,26 @@
 import type { LucideIcon } from "lucide-react";
 import {
   Armchair,
+  Backpack,
+  Bath,
+  Briefcase,
+  CupSoda,
+  Dumbbell,
+  GraduationCap,
+  Handbag,
+  Headphones,
+  KeyRound,
+  Laptop,
+  Luggage,
+  PawPrint,
+  PenLine,
+  ShoppingBag,
+  Snowflake,
+  Sofa,
+  Sparkles,
+  Umbrella,
+  Volleyball,
+  Wallet,
   Award,
   BadgeCheck,
   Gift,
@@ -37,6 +57,7 @@ export const nav = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Approach", href: "#approach" },
+  { label: "Customisation", href: "#customisation" },
   { label: "Clients", href: "#clients" },
   { label: "Shop", href: "#shop" },
   { label: "Contact", href: "#contact" },
@@ -218,4 +239,50 @@ export const shop: { title: string; products: { name: string; store: Store; href
       { name: "LEGO Creator 3in1 space robot set (31164)", store: "Makro", href: makro("lego-creator-3in1-space-toy-kids-building-set-31164-robots/p/itm379a78c525b2d?pid=BCNHNBZ6YEX92MUK&lid=LSTBCNHNBZ6YEX92MUKGVJCH4") },
     ],
   },
+];
+
+export type ShirtFit = "Men" | "Ladies";
+
+const shirt = (slug: string) => ({
+  Men: `/images/shirts/mens-${slug}.jpg`,
+  Ladies: `/images/shirts/ladies-${slug}.jpg`,
+});
+
+/** Brandable shirts. Every style comes in a men's and a ladies' fit. */
+export const customShirts: { name: string; type: string; images: Record<ShirtFit, string> }[] = [
+  { name: "Championship Golf Shirt", type: "Golf shirt", images: shirt("championship-golf-shirt") },
+  { name: "Delta Golf Shirt", type: "Golf shirt", images: shirt("delta-golf-shirt") },
+  { name: "Exhibit Golf Shirt", type: "Golf shirt", images: shirt("exhibit-golf-shirt") },
+  { name: "Kensington Shirt", type: "Short sleeve", images: shirt("ss-kensington-shirt") },
+  { name: "Kensington Shirt", type: "Long sleeve", images: shirt("ls-kensington-shirt") },
+  { name: "Wildstone Shirt", type: "Short sleeve", images: shirt("ss-wildstone-shirt") },
+  { name: "Wildstone Shirt", type: "Long sleeve", images: shirt("ls-wildstone-shirt") },
+  { name: "Mawenzi Twill Shirt", type: "Long sleeve", images: shirt("ls-mawenzi-twill-shirt") },
+  { name: "Eastwood Denim Shirt", type: "Long sleeve", images: shirt("ls-eastwood-denim-shirt") },
+  { name: "Serengeti 2-Tone Bush Shirt", type: "Short sleeve", images: shirt("ss-serengeti-2-tone-bush-shirt") },
+];
+
+/** Product categories we can brand with a client's logo. */
+export const customCategories: { icon: LucideIcon; name: string }[] = [
+  { icon: Umbrella, name: "Beach and Outdoor" },
+  { icon: ShoppingBag, name: "Beach Bags" },
+  { icon: Briefcase, name: "Conference Bags" },
+  { icon: CupSoda, name: "Coolers and Lunchware" },
+  { icon: Handbag, name: "Crossbody and Waist Bags" },
+  { icon: Backpack, name: "Drawstring Bags and Backpacks" },
+  { icon: Sofa, name: "Home and Living" },
+  { icon: KeyRound, name: "Lanyards, Wrist Straps and Keyholders" },
+  { icon: Sparkles, name: "Personal Care and Pamper Gifts" },
+  { icon: PawPrint, name: "Pet Accessories" },
+  { icon: Wallet, name: "Purses and Wallets" },
+  { icon: GraduationCap, name: "School Accessories" },
+  { icon: ShoppingBag, name: "Shopper and Tote Bags" },
+  { icon: Dumbbell, name: "Sports and Fitness" },
+  { icon: Volleyball, name: "Sports Bags" },
+  { icon: PenLine, name: "Stationery" },
+  { icon: Laptop, name: "Tech Sleeves" },
+  { icon: Bath, name: "Toiletry and Cosmetic Bags" },
+  { icon: Luggage, name: "Travel Accessories" },
+  { icon: Headphones, name: "Tech Accessories" },
+  { icon: Snowflake, name: "Winter Items" },
 ];
