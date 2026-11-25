@@ -120,7 +120,7 @@ export const services: { icon: LucideIcon; title: string; items: string[] }[] = 
   {
     icon: UtensilsCrossed,
     title: "Food & Catering Supplies",
-    items: ["Packaged food supplies", "Catering for meetings and events", "Bulk food procurement"],
+    items: ["Packaged food supplies", "Catering equipment and disposables", "Bulk food procurement"],
   },
   {
     icon: Truck,

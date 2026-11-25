@@ -16,7 +16,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Dontsha Dynamics | Women-led Supply & Delivery, Durban",
   description:
-    "Dontsha Dynamics is a women-led supply and delivery company in Durban. Office supplies, uniforms and PPE, branding, furniture, catering and end-to-end procurement, delivered on time.",
+    "Dontsha Dynamics is a women-led supply and delivery company in Durban. Office supplies, uniforms and PPE, branding, furniture, catering supplies and end-to-end procurement, delivered on time.",
   keywords: [
     "supply and delivery",
     "procurement",
